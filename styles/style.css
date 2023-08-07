@@ -1,27 +1,29 @@
 body {
+
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary{
+/* 
+.text-primary {
     color: #FD6E0A;
 }
 
-/* nav related styles */
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-    
-}
-
-.nav-title{
-color: #181818;
-font-family: Open Sans;
-font-size: 45px;
-font-weight: 800;
 
 }
 
-nav > ul{
+.nav-title {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+nav>ul {
     display: flex;
     align-items: center;
     margin: 0 200px;
@@ -32,24 +34,22 @@ nav li {
     margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #474747;
-}
+} */
 
 
 /* header related styles */
-.header{
+.header {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
-/* this is banner style */
-.banner{
-    padding: 30px 30px 30px 240px;
-    display: flex;
-    align-items: center;
+.text-primary {
+    color: #E55473;
 }
 
+/* this is banner style */
 
 .btn-primary {
     border-radius: 5px;
@@ -59,8 +59,166 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 30px;
+
 }
 
-.banner-img{
+.banner-img {
     width: 600px;
+}
+
+.banner {
+    padding: 0px 50px 30px 240px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 600px;
+
+}
+
+.banner-title {
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 32px;
+
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+
+}
+
+
+/*main section style */
+
+main >.contact {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 50px;
+}
+
+
+
+
+/* Flowers styles Section */
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.section-description {
+    color: rgba(77, 76, 76, 0.6);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 0px 200px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+.deal {
+    padding: 130px;
+    background-color: rgba(229, 84, 115, 0.10);
+    margin: 130px 0;
+
+}
+
+.deal-container {
+    display: flex;
+    align-items: center;
+}
+
+.signup-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* instagram related style */
+.instagram{
+
+}
+
+.flowers-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 30px;
+    margin-bottom: 100px;
+
+}
+
+
+
+/* contact related style */
+.contact {
+    padding: 130px;
+    border-radius: 10px;
+    background-image: url(../flower-asset/Rectangle\ 9.png);
+    background-repeat:no-repeat ;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.contact input[type="email"]{
+    display: block;
+    padding: 18px 35px;
+    color: #2b2a2a;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    
+}
+
+
+.contact-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.footer{
+    background-color: black;
+    height: 200px;
+    margin-top: 100px;
+    padding: 50px;
+
+}
+
+.footer-title{
+    color: #fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    
+}
+
+.footer-description{
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 0px 200px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
 }
